@@ -4,6 +4,7 @@ import "./App.css";
 import { motion } from "framer-motion";
 import Nav from "./components/NavBar";
 import Homepage from "./components/pages/Homepage";
+import ContactForm from "./components/pages/Contact";
 
 function App() {
   // const [count, setCount] = useState(0);
@@ -17,14 +18,14 @@ function App() {
             a web developer & design enthusiast{" "}
           </motion.h3>
           <motion.h5 animate={{ x: 900 }}>
-            cultivating clean, user-centric products or LIES{" "}
+            cultivating clean, user-centric products.... or an expert liar{" "}
           </motion.h5>
         </div>
         <Nav />
       </header>
       <Routes>
         <Route path={"/"} element={<Homepage/> } />
-        <Route path={"/contact"} element={<h1>contact</h1>} />
+        <Route path={"/contact"} element={<ContactForm/>} />
         <Route path={"/about-me"} element={<h1>about me</h1>} />
         <Route path={"/projects"} element={<h1>projects</h1>} />
       </Routes>
