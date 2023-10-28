@@ -1,30 +1,34 @@
 [
   {
-    "title": "1",
-    "description": "",
-    "image": "",
-    "github": "",
-    "deployedLink": ""
+    "title": "WhichFlix",
+    "description": "a movie night planner",
+    "image": "whichflix.svg",
+    "github": "https://github.com/horton-michael/movie-night-planner",
+    "deployedLink": "https://horton-michael.github.io/movie-night-planner/",
+    "id": 1
   },
   {
-    "title": "2",
-    "description": "",
-    "image": "",
-    "github": "",
-    "deployedLink": ""
+    "title": "ShapeUp",
+    "description": "an app for tracking your workout routines",
+    "image": "shapeup.svg",
+    "github": "https://github.com/clarissafuller/shape-up",
+    "deployedLink": "https://shape-up-4300c0d6cf80.herokuapp.com/login",
+    "id": 2
   },
   {
-    "title": "3",
-    "description": "",
-    "image": "",
-    "github": "",
-    "deployedLink": ""
+    "title": "Weather",
+    "description": "A simple weather app",
+    "image": "weather.svg",
+    "github": "https://github.com/tayskully/weather-dashboard",
+    "deployedLink": "https://tayskully.github.io/weather-dashboard/",
+    "id": 3
   },
   {
-    "title": "4",
-    "description": "",
-    "image": "",
-    "github": "",
-    "deployedLink": ""
+    "title": "LogoGenerator",
+    "description": "Generate your own SVG logos",
+    "image": "github-mark-white.svg",
+    "github": "https://github.com/tayskully/logo-generator",
+    "deployedLink": "https://watch.screencastify.com/v/tmkKjrjARyiFMtNpn7VL",
+    "id": 4
   }
 ]

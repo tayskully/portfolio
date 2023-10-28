@@ -4,7 +4,7 @@
 // const handleSubmit = (e) => {
 //     e.preventDefault();
 //     setInput("");
-
+import { motion } from "framer-motion";
 import { useForm } from "react-hook-form";
 
 export default function ContactForm() {
@@ -25,7 +25,12 @@ export default function ContactForm() {
   };
 
   return (
-    <div className="ContactForm">
+    <motion.div
+      className="ContactForm"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+    >
       <div className="container">
         <div className="row">
           <div className="col-12 text-center">
@@ -132,6 +137,6 @@ export default function ContactForm() {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }

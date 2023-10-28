@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 export default function Nav() {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-light pt-5">
+    <nav className="navbar navbar-expand-lg bg-body-light">
       <div className="container-fluid">
         <button
           className="navbar-toggler"
@@ -32,7 +32,11 @@ export default function Nav() {
               </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/filler-pdf.pdf">
+              <a
+                className="nav-link"
+                href="/TaylorSullivan_resume.pdf"
+                target="_blank"
+              >
                 resume
               </a>
             </li>
@@ -42,4 +46,3 @@ export default function Nav() {
     </nav>
   );
 }
-
