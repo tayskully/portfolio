@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 export default function Nav() {
   return (
+    <div className= "container d-flex justify-content-center">
     <nav className="navbar navbar-expand-lg bg-body-light">
       <div className="container-fluid">
         <button
@@ -44,5 +45,6 @@ export default function Nav() {
         </div>
       </div>
     </nav>
+    </div>
   );
 }

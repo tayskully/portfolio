@@ -1,7 +1,7 @@
 [
   {
     "title": "WhichFlix",
-    "description": "a movie night planner",
+    "description": "A movie night planner",
     "image": "whichflix.svg",
     "github": "https://github.com/horton-michael/movie-night-planner",
     "deployedLink": "https://horton-michael.github.io/movie-night-planner/",
@@ -9,14 +9,14 @@
   },
   {
     "title": "ShapeUp",
-    "description": "an app for tracking your workout routines",
+    "description": "An app for tracking your workout routines",
     "image": "shapeup.svg",
     "github": "https://github.com/clarissafuller/shape-up",
     "deployedLink": "https://shape-up-4300c0d6cf80.herokuapp.com/login",
     "id": 2
   },
   {
-    "title": "Weather",
+    "title": "Weather Dashboard",
     "description": "A simple weather app",
     "image": "weather.svg",
     "github": "https://github.com/tayskully/weather-dashboard",

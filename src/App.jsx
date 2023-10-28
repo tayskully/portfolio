@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap/dist/js/bootstrap.bundle"
 import "./App.css";
 import { motion, AnimatePresence } from "framer-motion";
 import Nav from "./components/NavBar";
@@ -8,10 +9,21 @@ import ContactForm from "./components/pages/Contact";
 import AboutMe from "./components/pages/AboutMe";
 // import styled from "styled-components";
 
+// const font =  "'Quicksand', sans-serif";
+
+// const theme = createMuiTheme({
+//   typography: {
+//     fontFamily: font,
+//     button: {
+//       textTransform: "none"
+//     }
+// }});
+
 function App() {
   return (
     <Router>
-      <header className="d-flex justify-content-center">
+      <header className="d-flex justify-content-center flex-wrap">
+      
         <motion.div
           initial={{ y: "800%", opacity: 0 }}
           animate={{
@@ -20,7 +32,7 @@ function App() {
             opacity: 1,
           }}
         >
-          <img src="/name.svg"></img>
+          <img src="/name.svg" className= "responsive"></img>
           <h3>a web developer & design enthusiast </h3>
           <h5>cultivating clean, user-centric products </h5>
         </motion.div>
@@ -32,8 +44,9 @@ function App() {
             opacity: 1,
           }}
         >
-          <img src="/TS.svg" width="100px"></img>
+          <br /><img src="/TS.svg" width="100px"></img>
         </motion.div>
+       
       </header>
       <motion.div
         initial={{ y: "800%", opacity: 0 }}
@@ -43,13 +56,13 @@ function App() {
           opacity: 1,
         }}
       >
-        <Nav />
+       <div className="border"> <Nav /> </div>
       </motion.div>
       <motion.div
         initial={{ y: "800%", opacity: 0 }}
         animate={{
           y: 0,
-          transition: { duration: 3, delay: 4 },
+          transition: { duration: 3, delay: 2 },
           opacity: 1,
           delay: 5,
         }}

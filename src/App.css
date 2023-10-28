@@ -6,7 +6,7 @@
   font-family: "Quicksand", "Space Grotesk", "Red Hat Display" ;
 }
 h1 {
-  font-family: ""
+  font-family: "Quicksand"
 }
 
 #root {
@@ -17,15 +17,31 @@ h1 {
   min-height: 100vh;
   background-image: url(../public/squiggle.svg);
 }
+
+/* blur on project links */
+.blur:hover .project-image {
+  transition: filter 300ms;
+  filter: blur(.5rem)
+}
+
+.blur {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* hide text */
 .hide {
   display: none;
 }
+/* show text on hover */
 .show:hover .hide  {
   display: inline-block;
 }
-.project-image:hover {
-  transition: filter 300ms;
-  filter: blur(.5rem)
+
+.responsive {
+  width: 100%;
+  height: auto;
 }
 
 a {
