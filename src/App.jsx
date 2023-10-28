@@ -7,17 +7,7 @@ import Nav from "./components/NavBar";
 import Homepage from "./components/pages/Homepage";
 import ContactForm from "./components/pages/Contact";
 import AboutMe from "./components/pages/AboutMe";
-// import styled from "styled-components";
 
-// const font =  "'Quicksand', sans-serif";
-
-// const theme = createMuiTheme({
-//   typography: {
-//     fontFamily: font,
-//     button: {
-//       textTransform: "none"
-//     }
-// }});
 
 function App() {
   return (
@@ -77,7 +67,9 @@ function App() {
         </AnimatePresence>
       </motion.div>
       <footer>
-        <p>Created with 🧚🏼‍♀️</p>
+       <a href="https://github.com/tayskully"><img src="github-mark-white.svg" width="50px"></img></a> 
+       <a href="https://www.linkedin.com/in/taysully/"><img src="LI-Logo.png" width="90px"></img></a> 
+       <a href="https://medium.com/@taysully94"><img src="medium-icon-svgrepo-com.svg" width="90px"></img></a> 
       </footer>
     </Router>
   );

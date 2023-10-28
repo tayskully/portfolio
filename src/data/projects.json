@@ -24,11 +24,27 @@
     "id": 3
   },
   {
+    "title": "Blog",
+    "description": "a blog template",
+    "image": "keyboard.svg",
+    "github": "https://github.com/tayskully/the-tech-blog-tm",
+    "deployedLink": "",
+    "id": 4
+  },
+  {
+    "title": "Social-Media-Backend",
+    "description": "skeleton for social media platform",
+    "image": "social-media.svg",
+    "github": "https://github.com/tayskully/social-media-backend",
+    "deployedLink": "https://watch.screencastify.com/v/rgW4WYUzodfP4bNChho1",
+    "id": 5
+  },
+  {
     "title": "LogoGenerator",
     "description": "Generate your own SVG logos",
-    "image": "github-mark-white.svg",
+    "image": "logo.svg",
     "github": "https://github.com/tayskully/logo-generator",
     "deployedLink": "https://watch.screencastify.com/v/tmkKjrjARyiFMtNpn7VL",
-    "id": 4
+    "id": 6
   }
 ]
