@@ -3,8 +3,8 @@
     "title": "WhichFlix",
     "description": "A movie night planner",
     "image": "whichflix.svg",
-    "github": "https://github.com/horton-michael/movie-night-planner",
-    "deployedLink": "https://horton-michael.github.io/movie-night-planner/",
+    "github": "https://github.com/tayskully/whichflix",
+    "deployedLink": "https://tayskully.github.io/whichflix/",
     "id": 1
   },
   {
@@ -24,11 +24,11 @@
     "id": 3
   },
   {
-    "title": "Blog",
-    "description": "a blog template",
-    "image": "keyboard.svg",
-    "github": "https://github.com/tayskully/the-tech-blog-tm",
-    "deployedLink": "",
+    "title": "Karaoke Keeper",
+    "description": "A karaoke song keeper for your nights out 🕺🏼",
+    "image": "",
+    "github": "https://github.com/tayskully/karaoke-keeper",
+    "deployedLink": "https://karaoke-keeper-02062b1867b9.herokuapp.com/",
     "id": 4
   },
   {
@@ -46,5 +46,13 @@
     "github": "https://github.com/tayskully/logo-generator",
     "deployedLink": "https://watch.screencastify.com/v/tmkKjrjARyiFMtNpn7VL",
     "id": 6
+  },
+  {
+    "title": "Blog",
+    "description": "a blog template",
+    "image": "keyboard.svg",
+    "github": "https://github.com/tayskully/the-tech-blog-tm",
+    "deployedLink": "",
+    "id": 7
   }
 ]
