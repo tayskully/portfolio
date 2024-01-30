@@ -11,7 +11,7 @@ export default function AboutMe() {
       <h1>Hi! I'm Taylor</h1>
       <img src="/taytayswirl.svg" width="300"></img>
       <h2>
-        I'm a New York based full stack web developer with a background in
+        I'm a New York City based full stack web developer with a background in
         visual studies, graphic design, set design, and all things creative.{" "}
       </h2>
       <h4>

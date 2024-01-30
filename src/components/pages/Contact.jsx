@@ -8,6 +8,7 @@ import { useForm } from "react-hook-form";
 import emailjs from "emailjs-com";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.min.css";
+// import { loadEnv } from "vite";
 
 const ContactForm = () => {
   const {
@@ -19,10 +20,10 @@ const ContactForm = () => {
 
   // Function that displays a success toast on bottom right of the page when form submission is successful
   const toastifySuccess = () => {
-    toast("Form sent!", {
-      position: "bottom-right",
+    toast("Message has been sent, thanks!", {
+      position: "top-center",
       autoClose: 5000,
-      hideProgressBar: true,
+      hideProgressBar: false,
       closeOnClick: true,
       pauseOnHover: true,
       draggable: false,
@@ -33,7 +34,7 @@ const ContactForm = () => {
 
   // Function called on submit that uses emailjs to send email of valid contact form
   const onSubmit = async (data) => {
-    // Destrcture data object
+    // Destructure data object
     const { name, email, subject, message } = data;
     try {
       const templateParams = {
@@ -49,7 +50,6 @@ const ContactForm = () => {
         templateParams,
         process.env.REACT_APP_USER_ID
       );
-
       reset();
       toastifySuccess();
     } catch (e) {
@@ -158,7 +158,10 @@ const ContactForm = () => {
                       )}
                     </div>
                   </div>
-                  <button className="submit-btn btn btn-outline-light" type="submit">
+                  <button
+                    className="submit-btn btn btn-outline-light"
+                    type="submit"
+                  >
                     Submit
                   </button>
                 </form>
