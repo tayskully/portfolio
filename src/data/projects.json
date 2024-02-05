@@ -11,9 +11,17 @@
     "title": "ShapeUp",
     "description": "An app for tracking your workout routines",
     "image": "shapeup.svg",
-    "github": "https://github.com/clarissafuller/shape-up",
-    "deployedLink": "https://shape-up-4300c0d6cf80.herokuapp.com/login",
+    "github": "https://github.com/tayskully/shape-up",
+    "deployedLink": "https://shape-up-4f7aee133b80.herokuapp.com/login",
     "id": 2
+  },
+  {
+    "title": "Karaoke Keeper",
+    "description": "A karaoke song keeper for your nights out 🕺🏼",
+    "image": "karaokekeeper.svg",
+    "github": "https://github.com/tayskully/karaoke-keeper",
+    "deployedLink": "https://karaoke-keeper-02062b1867b9.herokuapp.com/",
+    "id": 3
   },
   {
     "title": "Weather Dashboard",
@@ -21,14 +29,6 @@
     "image": "weather.svg",
     "github": "https://github.com/tayskully/weather-dashboard",
     "deployedLink": "https://tayskully.github.io/weather-dashboard/",
-    "id": 3
-  },
-  {
-    "title": "Karaoke Keeper",
-    "description": "A karaoke song keeper for your nights out 🕺🏼",
-    "image": "",
-    "github": "https://github.com/tayskully/karaoke-keeper",
-    "deployedLink": "https://karaoke-keeper-02062b1867b9.herokuapp.com/",
     "id": 4
   },
   {
