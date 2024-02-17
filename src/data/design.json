@@ -3,56 +3,6 @@
     "title": "WhichFlix",
     "description": "A movie night planner",
     "image": "whichflix.svg",
-    "github": "https://github.com/tayskully/whichflix",
-    "deployedLink": "https://tayskully.github.io/whichflix/",
     "id": 1
-  },
-  {
-    "title": "ShapeUp",
-    "description": "An app for tracking your workout routines",
-    "image": "shapeup.svg",
-    "github": "https://github.com/tayskully/shape-up",
-    "deployedLink": "https://shape-up-4f7aee133b80.herokuapp.com/login",
-    "id": 2
-  },
-  {
-    "title": "Karaoke Keeper",
-    "description": "A karaoke song keeper for your nights out 🕺🏼",
-    "image": "karaokekeeper.svg",
-    "github": "https://github.com/tayskully/karaoke-keeper",
-    "deployedLink": "https://karaoke-keeper-02062b1867b9.herokuapp.com/",
-    "id": 3
-  },
-  {
-    "title": "Weather Dashboard",
-    "description": "A simple weather app",
-    "image": "weather.svg",
-    "github": "https://github.com/tayskully/weather-dashboard",
-    "deployedLink": "https://tayskully.github.io/weather-dashboard/",
-    "id": 4
-  },
-  {
-    "title": "Social-Media-Backend",
-    "description": "skeleton for social media platform",
-    "image": "social-media.svg",
-    "github": "https://github.com/tayskully/social-media-backend",
-    "deployedLink": "https://watch.screencastify.com/v/rgW4WYUzodfP4bNChho1",
-    "id": 5
-  },
-  {
-    "title": "LogoGenerator",
-    "description": "Generate your own SVG logos",
-    "image": "logo.svg",
-    "github": "https://github.com/tayskully/logo-generator",
-    "deployedLink": "https://watch.screencastify.com/v/tmkKjrjARyiFMtNpn7VL",
-    "id": 6
-  },
-  {
-    "title": "Blog",
-    "description": "a blog template",
-    "image": "keyboard.svg",
-    "github": "https://github.com/tayskully/the-tech-blog-tm",
-    "deployedLink": "",
-    "id": 7
   }
 ]

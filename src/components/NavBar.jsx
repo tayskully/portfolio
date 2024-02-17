@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 export default function Nav() {
   return (
-    <div className= "container d-flex justify-content-center">
-    <nav className="navbar navbar-expand-lg bg-body-light justify-content-evenly">
-      {/* <div className="container-fluid"> */}
+    <div className="container d-flex justify-content-center">
+      <nav className="navbar navbar-expand-lg bg-body-light justify-content-evenly">
+        {/* <div className="container-fluid"> */}
         <button
           className="navbar-toggler"
           type="button"
@@ -23,7 +23,7 @@ export default function Nav() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to={"/"}>
+              <Link className="nav-link" to={"/design-portfolio"}>
                 design portfolio
               </Link>
             </li>
@@ -40,7 +40,7 @@ export default function Nav() {
             <li className="nav-item">
               <a
                 className="nav-link"
-                href="/TaylorSullivan_resume.pdf"
+                href="/TaylorSullivan_resume2024.pdf"
                 target="_blank"
               >
                 resume
@@ -48,8 +48,8 @@ export default function Nav() {
             </li>
           </ul>
         </div>
-      {/* </div> */}
-    </nav>
+        {/* </div> */}
+      </nav>
     </div>
   );
 }

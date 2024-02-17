@@ -59,6 +59,10 @@ a:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
 
+.padMe {
+  padding: 10px;
+}
+
 
 footer {
   position:relative;

@@ -1,5 +1,5 @@
-import projectData from "../../data/projects.json";
-import ProjectCard from "../ProjectCard";
+import designData from "../../data/design.json";
+import DesignCard from "../DesignCard";
 import { motion } from "framer-motion";
 // import {
 //   motion,
@@ -18,16 +18,18 @@ import { motion } from "framer-motion";
 //   const y = useParallax(scrollYProgress, 300);
 // }
 
-export default function Homepage() {
+export default function DesignPortfolio() {
   return (
-    <motion.div className="container" id="portfolio"
-    initial={{opacity: 0}}
-    animate={{opacity: 1}}
-    exit={{opacity:0}}
+    <motion.div
+      className="container"
+      id="design"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
     >
       <div className="row">
-        {projectData.map((project) => (
-          <ProjectCard project={project} key={project.title} />
+        {designData.map((design) => (
+          <DesignCard design={design} key={design.title} />
         ))}
       </div>
     </motion.div>

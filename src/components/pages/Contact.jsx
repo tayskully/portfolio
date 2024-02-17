@@ -94,7 +94,7 @@ const ContactForm = () => {
                         </span>
                       )}
                     </div>
-                    <div className="col-6">
+                    <div className="col-6 ">
                       <input
                         type="email"
                         name="email"
@@ -115,7 +115,7 @@ const ContactForm = () => {
                   </div>
                   {/* Row 2 of form */}
                   <div className="row formRow">
-                    <div className="col">
+                    <div className="col padMe">
                       <input
                         type="text"
                         name="subject"
@@ -129,7 +129,7 @@ const ContactForm = () => {
                             message: "Subject cannot exceed 75 characters",
                           },
                         })}
-                        className="form-control formInput"
+                        className="form-control formInput "
                         placeholder="Subject"
                       ></input>
                       {errors.subject && (
@@ -141,7 +141,7 @@ const ContactForm = () => {
                   </div>
                   {/* Row 3 of form */}
                   <div className="row formRow">
-                    <div className="col">
+                    <div className="col padMe">
                       <textarea
                         rows={3}
                         name="message"

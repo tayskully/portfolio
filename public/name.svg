@@ -4,7 +4,7 @@
       .cls-1 {
         font-size: 167.512px;
         text-anchor: middle;
-        font-family: Mexcellent;
+        font-family: Mexcellent, Helvetica;
       }
     </style>
   </defs>
