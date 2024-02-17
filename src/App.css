@@ -9,6 +9,12 @@ h1 {
   font-family: "Quicksand"
 }
 
+.card-title {
+  font-family: "Quicksand";
+  font-weight: "boldest";
+  
+}
+
 #root {
   max-width: 2000px;
   margin: 0 auto;

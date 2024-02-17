@@ -6,9 +6,20 @@ export default function ProjectCard({ project }) {
         src={project.image}
         alt="project logo"
       ></img>
-      <div className=" hide card-img-overlay">
-        <h1 className="card-title text-dark ">{project.title}</h1> <br />
-        <p className="text-dark">{project.description}</p>
+      <div className="hide card-img-overlay">
+        <h1 id="card-title" className="card-title text-dark ">
+          {project.title}
+        </h1>{" "}
+        <br />
+        <h2 className="text-dark">{project.description}</h2>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
         <br />
         <a
           href={project.github}
@@ -17,8 +28,6 @@ export default function ProjectCard({ project }) {
         >
           <img src="/github-mark-white.svg" width="30"></img>
         </a>
-        <br />
-        <br />
         <a
           href={project.deployedLink}
           target="_blank"
